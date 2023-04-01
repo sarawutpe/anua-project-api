@@ -1,0 +1,27 @@
+--------------------------------------------------
+NOTE: Backend | Express.js
+--------------------------------------------------
+1. initial package.json
+$ npm init --y
+
+# package name lists
+$ npm install express // https://expressjs.com/
+$ npm install -g nodemon // https://nodemon.io/
+$ npm install mysql2 // mysql db
+$ npm install multer
+$ npm install uuid
+$ npm install cors
+
+--------------------------------------------------
+NOTE: Database | MySQL
+--------------------------------------------------
+(Create, Read, Update, Delete) using Node.js, Express, and MySQL
+
+1. create db 
+dbname: anua_db 
+colletion: utf8_general_ci
+
+
+
+
+
