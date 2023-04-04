@@ -1,10 +1,11 @@
 const mysql = require('mysql2/promise')
 
+// กำหนดการเชื่อมต่อกับ mysql (ฐานข้อมูล)
 const pool = mysql.createPool({
-  host: 'us-cdbr-east-06.cleardb.net',
-  user: 'be72fd49b94c48',
-  password: '7bf324a3',
-  database: 'heroku_acab4e5331033a7',
+  host: 'localhost',
+  user: 'root',
+  password: '',
+  database: 'anua_db',
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0,
